@@ -1,0 +1,36 @@
+{% load static from staticfiles %}
+
+	<footer id="footer">
+		<hr>
+				<div class="inner">
+					<div class="content">
+						<section style="margin-left: 20px; margin-right: 10px;">
+							<h3>CONTACT US</h3>
+							<h5>TRACK AUTOMOTIVE<br>
+								Abcd nager<br>
+								Nagercoil<br>
+							Pincode:691009</h5>
+					
+					
+					</section>
+						<section>
+							<h3>MENU</h3>
+							<ul class="alt">
+								
+									<a href="{% url 'home' %}">Home</a><br>
+									<a href="{% url 'about' %}">About us</a><br>
+									<a href="{% url 'services' %}">Services</a><br>
+									<a href="{% url 'gal1' %}">Gallery</a><br>
+									<a href="{% url 'register' %}">Contact</a><br>
+							
+							</ul>
+						</section>
+						<section class="alt">
+							<a href="{% url 'register'%}" class="site-btn sb-dark mt-4" style="margin-bottom: 10px;">Get in Touch</a>
+                    		
+						</section>
+					</div>
+					<div class="copyright"><h5>Copyright &copy; <script> document.write(new Date().getFullYear());</script>.All rights reserved. <br>This template is made</i> by <a href="#" target="_blank">ALINFOTECH</a></h5>
+					</div>
+				</div>
+			</footer>

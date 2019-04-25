@@ -1,0 +1,19 @@
+{% extends 'index2.html' %}
+{% load static from staticfiles %}
+{% block content%}
+<div class="container text-left py-md-5">
+            <div class="last-w3pvt-inner-content row">
+
+                <div class="col-md-6">
+
+<form method='post' action='.' enctype='multipart/form-data'>
+	{% csrf_token %}
+	<table>
+	{{form.as_p}}
+</table>
+	<button>submit</button>
+
+</form>
+</div></div></div>
+{% endblock %}
+

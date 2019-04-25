@@ -1,0 +1,18 @@
+{% extends 'index2.html' %}
+{%load static from staticfiles%}
+{% block content %}
+
+<div class="jumbtron w3-xxl-text" style="margin-top: 100px; color: black;">
+  <h1><center>SUCCESSFULLY COMPLETED BOOKING</center></h1>
+</div>
+  <center><div class="text-xs-center">
+  <h1 class="w3-text-black">Thank You!</h1>
+  <br>
+  <p style="color: black;">Having trouble? <a href="{% url 'contact' %}" role="button" style="color:lightgrey;">Contact us</a>
+  </p>
+  <p class="lead">
+    <a href="{% url 'home' %}" role="button" style="color: black;">Continue to homepage</a>
+  </p>
+</div>
+</center>
+	{% endblock %}

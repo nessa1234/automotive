@@ -1,0 +1,17 @@
+{% load static from staticfiles %}
+<header class="header-area">
+	<div class="logo-area" style="background-color: transparent;"> <img src="/media/logo.png" style="margin-left: 20px;"></div>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+		<div class="phone-number">+04652-234598</div>
+		<nav class="nav-menu">
+			<ul>
+				<li class="active"><a href="{% url 'home' %}">Home</a></li>
+				<li><a href="{% url 'about' %}">About us</a></li>
+				<li><a href="{% url 'services' %}">Services</a></li>
+				<li><a href="{% url 'gal1' %}">Gallery</a></li>
+				<li><a href="{% url 'register' %}">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
