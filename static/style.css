@@ -2081,6 +2081,8 @@ ol {
 	}
 	.header-area {
 		background: transparent;
+		background-color: transparent;
+	
 		padding-right: 66px;
 	}
 	.nav-menu {
