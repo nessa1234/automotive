@@ -449,7 +449,7 @@ ol {
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: #121212;
+	background: transparent;
 	}
 
 .phone-number {
