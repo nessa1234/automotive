@@ -1,5 +1,5 @@
 {% load static from staticfiles %}
-<header class="header-area" style="background-color: black;">
+<!--<header class="header-area" style="background-color: black;">
 	<div class="logo-area" style="background:black;"><img src="/media/logo1.png"></div>
 		<div class="nav-switch">
 			<i class="fa fa-bars"></i>
@@ -14,4 +14,18 @@
 				<li><a href="{% url 'register' %}">Contact</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header>-->
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+  	<img src="/media/logo1.png">
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'about' %}">About us</a>
+      <a href="{% url 'services' %}">Services</a>
+      <a href="{% url 'gal1' %}">Gallery</a>
+      <a href="{% url 'register' %}">Contact</a>
+    </div>
+  </div>
+</div>

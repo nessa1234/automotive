@@ -1,56 +1,13 @@
 {% load static from staticfiles %}
 
-
-​
-
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-​
-
-<div class="w3-content w3-section" style="width:100%">
-
-  <img class="mySlides" src="/media/carausel/car7.jpg" style="width:100%">
-
-  <img class="mySlides" src="/media/ac/car6.jpeg" style="width:100%">
-
-  <img class="mySlides" src="/media/newpic/p3.png" style="width:100%">
-
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
 </div>
-
-​
-
-<script>
-
-var myIndex = 0;
-
-carousel();
-
-​
-
-function carousel() {
-
-  var i;
-
-  var x = document.getElementsByClassName("mySlides");
-
-  for (i = 0; i < x.length; i++) {
-
-    x[i].style.display = "none";  
-
-  }
-
-  myIndex++;
-
-  if (myIndex > x.length) {myIndex = 1}    
-
-  x[myIndex-1].style.display = "block";  
-
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-
-}
-
-</script>
-
-
-​
-

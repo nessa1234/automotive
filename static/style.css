@@ -445,15 +445,17 @@ ol {
 	width: 100%;
 	top: 0;
 	z-index: 50;
+	height:95px;
 }
 .logo-area img{
-	margin-top: 
+	margin-top: 10px;
 }
 
 .logo-area {
 	float: left;
 	display: inline-block;
 	background: transparent;
+
 	}
 
 .phone-number {
