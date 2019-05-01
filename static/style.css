@@ -926,7 +926,6 @@ ol {
 .projects-slider .single-project {
 	height: 550px;
 	width: 100%;
-	background: #333;
 	-o-transition: .8s;
 	transition: .8s;
 	-webkit-transition: .8s;
