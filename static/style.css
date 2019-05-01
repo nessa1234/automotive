@@ -445,8 +445,9 @@ ol {
 	width: 100%;
 	top: 0;
 	z-index: 50;
-	height:95px;
-	color: white;
+	height:65px;
+	color: darkgrey;
+	background-color: white;
 }
 .logo-area img{
 	margin-top: 10px;
