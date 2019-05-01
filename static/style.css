@@ -1982,10 +1982,10 @@ ol {
 	.nav-menu ul li a:after {
 		left: 20px;
 	}
-	.nav-menu ul li.active>a:after,
+	/*.nav-menu ul li.active>a:after,
 	.nav-menu ul li a:hover:after {
-		height: 10px;
-	}
+	/*	height: 10px; 
+	}*/
 	.hero-section {
 		height: 500px;
 	}
