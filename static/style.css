@@ -467,7 +467,7 @@ ol {
 	background: red;
 	font-weight: 700;
 	letter-spacing: 1px;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-right: 50px;
 }
 
@@ -480,6 +480,7 @@ ol {
 	display: inline-block;
 	float: right;
 	color: darkgrey;
+	margin-top: 30px;
 }
 
 .nav-menu ul {
@@ -496,17 +497,16 @@ ol {
 	text-transform: uppercase;
 	margin-right: 30px;
 	font-size: 14px;
-	color: darkgrey;
+	color: black;
 	font-weight: 500;
 	position: relative;
 }
 
 .nav-menu ul li a:after {
 	position: absolute;
-	content: "";
+	
 	color: darkgrey;
-	width: 2px;
-	height: 0;
+	
 	left: 50%;
 	margin-left: 1px;
 	top: 0;
@@ -1978,8 +1978,9 @@ ol {
 	.nav-menu ul li a {
 		display: block;
 		padding: 16px 21px;
-		border-bottom: 1px solid #202020;
+		border-bottom: 1px solid #fee6e6;
 		margin-right: 0;
+		background: white;
 	}
 	.nav-menu ul li a:after {
 		left: 20px;
