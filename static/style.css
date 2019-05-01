@@ -2371,7 +2371,7 @@ a {
         width: 50%;
         padding-right: 4rem; }
       #footer .content section:last-child {
-        padding-left: 4rem; }
+        padding-left: 0rem; }
   #footer .copyright {
     border-top: 1px solid;
     font-size: 0.8rem;
@@ -2380,7 +2380,7 @@ a {
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 0 0 0 0 ; } }
   @media screen and (max-width: 980px) {
     #footer .content {
       -moz-flex-wrap: wrap;
