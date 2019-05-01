@@ -449,10 +449,9 @@ ol {
 	color: darkgrey;
 	background-color: white;
 }
-.logo-area img{
-	margin-top: 10px;
-}
+.logo-area{
 
+}
 .logo-area {
 	float: left;
 	display: inline-block;
@@ -480,7 +479,7 @@ ol {
 	display: inline-block;
 	float: right;
 	color: darkgrey;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .nav-menu ul {
