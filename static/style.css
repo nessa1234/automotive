@@ -473,6 +473,7 @@ ol {
 
 .nav-switch {
 	display: none;
+	color:black;
 }
 
 .nav-menu {
@@ -511,6 +512,7 @@ ol {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+
 }
 
 .nav-menu ul li a:hover:after {
@@ -1958,7 +1960,7 @@ ol {
 		position: absolute;
 		right: 20px;
 		font-size: 30px;
-		color: #fff;
+		color:black;
 		top: 20px;
 		display: block;
 	}
@@ -1985,11 +1987,11 @@ ol {
 		height: 10px;
 	}
 	.hero-section {
-		height: auto;
+		height: 500px;
 	}
 	.hero-slider .hero-slide-item {
 		padding: 150px 0;
-		height: auto;
+		height: 500px;
 	}
 	.slide-content h2 {
 		font-size: 60px;
