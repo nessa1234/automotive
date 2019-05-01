@@ -479,6 +479,7 @@ ol {
 .nav-menu {
 	display: inline-block;
 	float: right;
+	color: darkgrey;
 }
 
 .nav-menu ul {
@@ -495,7 +496,7 @@ ol {
 	text-transform: uppercase;
 	margin-right: 30px;
 	font-size: 14px;
-	color:darkgrey;
+	color: darkgrey;
 	font-weight: 500;
 	position: relative;
 }
@@ -503,6 +504,7 @@ ol {
 .nav-menu ul li a:after {
 	position: absolute;
 	content: "";
+	color: darkgrey;
 	width: 2px;
 	height: 0;
 	left: 50%;
