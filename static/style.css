@@ -1793,7 +1793,9 @@ ol {
 		left: auto;
 		right: 0;
 	}
+
 }
+
 
 @media only screen and (max-width: 1400px) {
 	.promo-box {
@@ -1991,11 +1993,11 @@ ol {
 	/*	height: 10px; 
 	}*/
 	.hero-section {
-		height: 500px;
+		height: 300px;
 	}
 	.hero-slider .hero-slide-item {
 		padding: 150px 0;
-		height: 500px;
+		height: 300px;
 	}
 	.slide-content h2 {
 		font-size: 60px;
