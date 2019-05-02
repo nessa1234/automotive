@@ -83,8 +83,8 @@ float: right;
 	{% include 'header.html' %}
 	
 	<section class="hero-section">
-		<!-left social link ber -->
-		<!--<div class="left-bar">
+		<!--left social link ber -->
+		<div class="left-bar">
 			<div class="left-bar-content">
                     <ul class="social-network social-circle">
                         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -121,6 +121,21 @@ float: right;
 				</div>
 			</div>
 		</div>-->
+	<script>
+
+    $(document).ready(function() {
+     
+      var owl = $(".hero-slider");
+     
+      owl.owlCarousel({
+        navigation : true,
+        singleItem : true,
+        transitionStyle : "fade"
+      });
+     
+    });</script>
+
+
 
 		<!--<script>
 var myIndex = 0;
