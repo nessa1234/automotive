@@ -463,11 +463,12 @@ ol {
 	float: right;
 	display: inline-block;
 	padding: 5px 10px;
-	background: red;
+	background: darkgrey;
 	font-weight: 700;
 	letter-spacing: 1px;
 	margin-top: 15px;
 	margin-right: 50px;
+	color: white;
 }
 
 .nav-switch {
