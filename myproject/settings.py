@@ -25,7 +25,7 @@ SECRET_KEY = 'rck9q2vgqcdy2&47y8ykvv@%z8*k0p!rzrk@gpzfqoha7wypxd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'3.211.249.12', 'www.trackautomotive.com']
+ALLOWED_HOSTS = ['3.211.249.12', 'www.trackautomotive.com']
 # Application definition
 
 INSTALLED_APPS = (
