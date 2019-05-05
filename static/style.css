@@ -1945,7 +1945,7 @@ ol {
 }
 
 /* Large Mobile :480px. */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1007px) {
 	h1,
 	.sp-title {
 		font-size: 45px;
