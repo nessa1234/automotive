@@ -2093,7 +2093,7 @@ ol {
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.logo-area {
-		padding: 5px 5px 5px;
+		padding: 0px 0px 0px;
 	}
 	.header-area {
 		background: transparent;
@@ -2106,7 +2106,7 @@ ol {
 		border-top: 2px solid;
 	}
 	.left-bar {
-		display: none;
+		display: all;
 	}
 	.hero-slider .owl-nav {
 		padding-left: 0;
