@@ -37,7 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'widget_tweaks',
+    'django.forms',
 )
+FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
